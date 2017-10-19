@@ -36,14 +36,14 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+            <!--<plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-enforcer-plugin</artifactId>
               <version>1.4.1</version>
               <configuration>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
               </configuration>
-              <!--<executions>
+              <executions>
                 <execution>
                   <id>enforce-property</id>
                   <goals>
@@ -59,8 +59,8 @@
                     <fail>true</fail>
                   </configuration>
                 </execution>
-              </executions>-->
-            </plugin>
+              </executions>
+            </plugin>-->
         </plugins>
     </build>
 </project>
